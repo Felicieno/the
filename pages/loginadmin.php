@@ -27,7 +27,7 @@ if (isset($_GET['value'])) {
         <h2 class="visually-hidden">Login Form</h2>
         <div class="illustration"><i class="icon ion-person" style="color: #1b8dcd;border-color: #0dabee;"></i></div>
         <div class="form-group mb-3">
-            <input class="form-control form-control-sm" type="email" name="email" placeholder="Veuillez entrer votre nom">
+            <input class="form-control form-control-sm" type="email" name="email" placeholder="Veuillez entrer votre nom" value="kotozandry@gmail.com">
             <?php if (isset($tab[0]) && $tab[0] != "") { ?>
                 <div class="form-group has-error">
                     <div class="alert alert-danger" role="alert">
@@ -39,7 +39,7 @@ if (isset($_GET['value'])) {
             <?php } ?>
         </div>
         <div class="form-group mb-3">
-            <input class="form-control form-control-sm" type="password" name="password" placeholder="Veuillez entrer votre mot de passe">
+            <input class="form-control form-control-sm" type="password" name="password" placeholder="Veuillez entrer votre mot de passe" value="koto">
             <?php if (isset($tab[1]) && $tab[1] != "") { ?>
                 <div class="form-group has-error">
                     <div class="alert alert-danger" role="alert">
