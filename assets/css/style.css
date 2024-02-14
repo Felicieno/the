@@ -1,0 +1,18 @@
+button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(43, 87, 40);
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(41, 133, 33) 0%, rgb(41, 133, 33) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
